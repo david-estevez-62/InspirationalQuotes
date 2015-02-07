@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding:0;
+}
+.form {
+	background: black;
+	color:white;
+
+	margin-top: 0px;
+	width: 100%;
+	height:90px;
+	position:relative;
+}
+input {
+	width: 84%;
+	height:25px;
+	margin-top: 10px;
+}
+.submit {
+	height: 90px;
+	width: 13%;
+	background: red;
+	border:none;
+	margin: 0;
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+.quote {
+	margin: auto;
+	padding: 20px 0 0 20px;
+}
+.clearAll {
+	background: red;
+	height: 90px;
+	width:250px;
+	border:none;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+.delete {
+	border:none;
+	margin-right: 150px;
+	height: 20px;
+	width: 40px;
+}
+.templates {
+	display:none;
+}
+.rating-a .br-widget {
+    height: 52px;
+}
+
+.rating-a .br-widget a {
+    display: block;
+    width: 15px;
+    padding: 5px 0 5px 0;
+    height: 30px;
+    float: left;
+    background-color: #e3e3e3;
+    margin: 1px;
+    text-align: center;
+}
+
+.rating-a .br-widget a.br-active,
+.rating-a .br-widget a.br-selected {
+    background-color: #59a6d6;
+}
+
+.rating-a .br-widget .br-current-rating {
+    font-size: 20px;
+    line-height: 2;
+    float: left;
+    padding: 0 20px 0 20px;
+    color: #646464;
+}
